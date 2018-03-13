@@ -25,7 +25,7 @@ apis:
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/azure-search/subscriptions-subscriptionid-providers-microsoft-search-checknameavailability-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/search/
