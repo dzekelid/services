@@ -33,7 +33,7 @@ apis:
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/aws-ec2-container-service/action-createservice-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/aws-ec2-container-service/action-deleteservice-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
