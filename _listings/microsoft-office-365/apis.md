@@ -25,7 +25,7 @@ apis:
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/microsoft-office-365/allservices-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/microsoft-office-365/services-get.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
