@@ -10,9 +10,9 @@ tags:
 - Stack Network
 - Search
 - Microsoft
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/azure-search/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Search API
@@ -25,7 +25,7 @@ apis:
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/azure-search/subscriptions-subscriptionid-providers-microsoft-search-checknameavailability-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/search/
