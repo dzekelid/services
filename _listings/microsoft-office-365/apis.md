@@ -11,9 +11,9 @@ tags:
 - Spreadsheets
 - Productivity
 - Documents
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/microsoft-office-365/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/microsoft-office-365/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Microsoft Office 365
@@ -25,7 +25,7 @@ apis:
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/microsoft-office-365/services-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/microsoft-office-365/allservices-get.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
