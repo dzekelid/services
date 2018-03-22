@@ -13,9 +13,9 @@ tags:
 - Stack Network
 - Microsoft
 - Machine Learning
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/azure-machine-learning/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Machine Learning API
@@ -27,7 +27,7 @@ apis:
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-providers-microsoft-machinelearning-webservices-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/machine-learning/
