@@ -33,7 +33,7 @@ apis:
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/akamai/events-v2-accountid-events-eventid-services-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/akamai/sourceserviceid-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
