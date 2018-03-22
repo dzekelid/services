@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteService&k=1:
+  /?Action=DeleteService:
     get:
       summary: ' Delete Service '
       description: Deletes a specified service within a cluster
