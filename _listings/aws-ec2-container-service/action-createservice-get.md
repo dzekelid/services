@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateService&k=1:
+  /?Action=CreateService:
     get:
       summary: ' Create Service '
       description: Runs and maintains a desired number of tasks from a specified task
