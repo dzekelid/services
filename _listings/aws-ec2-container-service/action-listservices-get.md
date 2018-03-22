@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListServices&k=1:
+  /?Action=ListServices:
     get:
       summary: ' List Services '
       description: Lists the services that are running in a specified cluster
