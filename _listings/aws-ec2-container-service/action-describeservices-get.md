@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeServices&k=1:
+  /?Action=DescribeServices:
     get:
       summary: ' Describe Services '
       description: Describes the specified services running in your cluster
