@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVpcEndpointServices&k=1:
+  /?Action=DescribeVpcEndpointServices:
     get:
       summary: Describe Vpc Endpoint Services
       description: Describes all supported AWS services that can be specified when
