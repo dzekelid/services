@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateService&k=1:
+  /?Action=UpdateService:
     get:
       summary: ' Update Service '
       description: |-
