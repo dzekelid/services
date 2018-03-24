@@ -13,8 +13,8 @@ tags:
 - Microsoft
 - Deployment
 - Containers
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-container-service/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-container-service/subscriptions-subscriptionid-providers-microsoft-containerservice-containerservices-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/container-service/
