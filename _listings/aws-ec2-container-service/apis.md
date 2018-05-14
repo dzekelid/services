@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/aws-ec2-container-service/action-updateservice-get.md
-- name: Amazon EC2 Container Service API Describe Services
-  description: Describes the specified services running in your cluster.
+- name: Amazon EC2 Container Service API List Services
+  description: Lists the services that are running in a specified cluster.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
   humanURL: https://aws.amazon.com/ecs/
   baseURL: http:://{host}//
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/aws-ec2-container-service/action-describeservices-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/aws-ec2-container-service/action-listservices-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
