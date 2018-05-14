@@ -28,19 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-providers-microsoft-machinelearning-webservices-get.md
-- name: Azure Machine Learning API Web Services Get
-  description: Gets the Web Service Definition as specified by a subscription, resource
-    group, and name. Note that the storage credentials and web service keys are not
-    returned by this call. To get the web service access keys, call List Keys.
+- name: Azure Machine Learning API Web Services Patch
+  description: Modifies an existing web service resource. The PATCH API call is an
+    asynchronous operation. To determine whether it has completed successfully, you
+    must perform a Get operation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-simple-scalable-cutting-edge.jpg
   humanURL: https://azure.microsoft.com/en-us/services/machine-learning/
   baseURL: http:://management.azure.com//
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-patch.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/machine-learning/
