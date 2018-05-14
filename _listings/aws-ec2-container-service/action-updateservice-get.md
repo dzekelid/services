@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Service API
+  title: Amazon EC2 Container Service API Update Service
   version: 1.0.0
+  description: |-
+    Modifies the desired count, deployment configuration, or task definition used in a
+                service.
 schemes:
 - http
 produces:
