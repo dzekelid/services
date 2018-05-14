@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: SearchManagementClient
-  description: Client that can be used to manage Azure Search services and API keys.
+  title: Azure Search API Services Create Or Update
+  description: Creates or updates a Search service in the given resource group. If
+    the Search service already exists, all properties will be updated with the given
+    values.
   version: 1.0.0
 host: management.azure.com
 basePath: /
