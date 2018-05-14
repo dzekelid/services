@@ -34,7 +34,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/aws-ec2-container-service/action-updateservice-get.md
+- name: Amazon EC2 Container Service API Create Service
+  description: Runs and maintains a desired number of tasks from a specified task
+    definition.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: http:://{host}//
+  tags: Services
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/aws-ec2-container-service/action-createservice-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/ecs/faqs/
+- type: x-getting-started
+  url: https://portal.aws.amazon.com/gp/aws/developer/registration/index.html
+- type: x-pricing
+  url: https://aws.amazon.com/ecs/pricing/
+- type: x-website
+  url: https://aws.amazon.com/ecs/
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
 - type: x-faq
