@@ -26,18 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-providers-microsoft-search-checknameavailability-post.md
-- name: Azure Search API Services Delete
-  description: Deletes a Search service in the given resource group, along with its
-    associated resources.
+- name: Azure Search API Services List By Resource Group
+  description: Gets a list of all Search services in the given resource group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-search.png
   humanURL: https://azure.microsoft.com/en-us/services/search/
   baseURL: http:://management.azure.com//
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/search/
