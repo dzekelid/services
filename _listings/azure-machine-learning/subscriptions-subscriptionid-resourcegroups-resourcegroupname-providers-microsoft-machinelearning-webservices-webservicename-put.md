@@ -1,13 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Azure ML Web Services Management Client
-  description: These APIs allow end users to operate on Azure Machine Learning Web
-    Services resources. They support the following operations:&lt;ul&gt;&lt;li&gt;Create
-    or update a web service&lt;/li&gt;&lt;li&gt;Get a web service&lt;/li&gt;&lt;li&gt;Patch
-    a web service&lt;/li&gt;&lt;li&gt;Delete a web service&lt;/li&gt;&lt;li&gt;Get
-    All Web Services in a Resource Group &lt;/li&gt;&lt;li&gt;Get All Web Services
-    in a Subscription&lt;/li&gt;&lt;li&gt;Get Web Services Keys&lt;/li&gt;&lt;/ul&gt;
+  title: Azure Machine Learning API Web Services Create Or Update
+  description: Create or update a web service. This call will overwrite an existing
+    web service. Note that there is no warning or confirmation. This is a nonrecoverable
+    operation. If your intent is to create a new web service, call the Get operation
+    first to verify that it does not exist.
   version: 1.0.0
 host: management.azure.com
 basePath: /
