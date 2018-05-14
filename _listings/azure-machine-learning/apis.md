@@ -28,17 +28,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-providers-microsoft-machinelearning-webservices-get.md
-- name: Azure Machine Learning API Web Services Remove
-  description: Deletes the specified web service.
+- name: Azure Machine Learning API Web Services Create Regional Properties
+  description: Creates an encrypted credentials parameter blob for the specified region.
+    To get the web service from a region other than the region in which it has been
+    created, you must first call Create Regional Web Services Properties to create
+    a copy of the encrypted credential parameter blob in that region. You only need
+    to do this before the first time that you get the web service in the new region.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-simple-scalable-cutting-edge.jpg
   humanURL: https://azure.microsoft.com/en-us/services/machine-learning/
   baseURL: http:://management.azure.com//
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-createregionalblob-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-createregionalblob-post-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/machine-learning/
