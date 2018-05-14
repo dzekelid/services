@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Copy a Configuration
-  description: Copy a Configuration
+- name: Akamai API List HTTP Ingest Metrics
+  description: List HTTP Ingest Metrics
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/akamai/sourceserviceid-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/akamai/media-reports-v1-media-services-live-http-ingest-metrics-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
