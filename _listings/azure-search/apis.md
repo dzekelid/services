@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-providers-microsoft-search-checknameavailability-post.md
-- name: Azure Search API Services List By Resource Group
-  description: Gets a list of all Search services in the given resource group.
+- name: Azure Search API Services Check Name Availability
+  description: Checks whether or not the given Search service name is available for
+    use. Search service names must be globally unique since they are part of the service
+    URI (https://<name>.search.windows.net).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-search.png
   humanURL: https://azure.microsoft.com/en-us/services/search/
   baseURL: http:://management.azure.com//
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-providers-microsoft-search-checknameavailability-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/search/
