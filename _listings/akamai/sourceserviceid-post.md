@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Copy a Configuration
+  description: Copy a Configuration
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Copy a Configuration
       operationId: sourceserviceid
       parameters:
-      - in: Number
+      - in: query
         name: sourceServiceId
         description: ID of the source configuration for copy
         type: string
