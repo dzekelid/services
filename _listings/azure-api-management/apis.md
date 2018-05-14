@@ -27,15 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-updatehostname-post.md
-- name: Azure API Management API ApiManagementServices UploadCertificate
-  description: Upload Custom Domain SSL certificate for an API Management service.
+- name: Azure API Management API ApiManagementServices UpdateHostname
+  description: Creates, updates, or deletes the custom hostnames for an API Management
+    service. The custom hostname can be applied to the Proxy and Portal endpoint.
+    This is a long running operation and could take several minutes to complete.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
   humanURL: https://azure.microsoft.com/en-us/services/api-management/
   baseURL: http:://management.azure.com//
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-uploadcertificate-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-updatehostname-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
