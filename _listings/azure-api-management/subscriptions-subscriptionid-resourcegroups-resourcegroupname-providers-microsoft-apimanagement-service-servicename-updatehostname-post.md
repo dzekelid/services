@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: ApiManagementClient
-  description: Use these REST APIs for performing operations on User entity in Azure
-    API Management deployment. The User entity in API Management represents the developers
-    that call the APIs of the products to which they are subscribed.
+  title: Azure API Management API ApiManagementServices UpdateHostname
+  description: Creates, updates, or deletes the custom hostnames for an API Management
+    service. The custom hostname can be applied to the Proxy and Portal endpoint.
+    This is a long running operation and could take several minutes to complete.
   version: 1.0.0
 host: management.azure.com
 basePath: /
