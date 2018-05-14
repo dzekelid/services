@@ -27,7 +27,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-updatehostname-post.md
+- name: Azure API Management API ApiManagementServices Restore
+  description: Restores a backup of an API Management service created using the ApiManagementServices_Backup
+    operation on the current service. This is a long running operation and could take
+    several minutes to complete.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/api-management/
+  baseURL: http:://management.azure.com//
+  tags: Services
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-restore-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/api-management/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/api-management/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/api-management/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/api-management/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
 - type: x-pricing
