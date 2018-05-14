@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Service API
+  title: Amazon EC2 Container Service API Delete Service
   version: 1.0.0
+  description: Deletes a specified service within a cluster.
 schemes:
 - http
 produces:
