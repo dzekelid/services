@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-providers-microsoft-machinelearning-webservices-get.md
-- name: Azure Machine Learning API Web Services Patch
-  description: Modifies an existing web service resource. The PATCH API call is an
-    asynchronous operation. To determine whether it has completed successfully, you
-    must perform a Get operation.
+- name: Azure Machine Learning API Web Services Remove
+  description: Deletes the specified web service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-simple-scalable-cutting-edge.jpg
   humanURL: https://azure.microsoft.com/en-us/services/machine-learning/
   baseURL: http:://management.azure.com//
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/machine-learning/
