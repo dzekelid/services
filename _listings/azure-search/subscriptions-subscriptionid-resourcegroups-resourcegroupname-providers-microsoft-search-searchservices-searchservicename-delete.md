@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SearchManagementClient
-  description: Client that can be used to manage Azure Search services and API keys.
+  title: Azure Search API Services Delete
+  description: Deletes a Search service in the given resource group, along with its
+    associated resources.
   version: 1.0.0
 host: management.azure.com
 basePath: /
