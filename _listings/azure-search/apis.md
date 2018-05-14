@@ -26,7 +26,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-providers-microsoft-search-checknameavailability-post.md
+- name: Azure Search API Services Create Or Update
+  description: Creates or updates a Search service in the given resource group. If
+    the Search service already exists, all properties will be updated with the given
+    values.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-search.png
+  humanURL: https://azure.microsoft.com/en-us/services/search/
+  baseURL: http:://management.azure.com//
+  tags: Services
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-put.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/search/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/search/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/search/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/search/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/search/
 - type: x-pricing
