@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Describe Vpc Endpoint Services
   version: 1.0.0
+  description: Describes all supported AWS services that can be specified when creating
+    a VPC endpoint.
 schemes:
 - http
 produces:
