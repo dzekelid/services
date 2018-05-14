@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/microsoft-office-365/services-get.md
-- name: Microsoft Office 365 Get All Services
-  description: Get all services.
+- name: Microsoft Office 365 Get Services
+  description: Get services
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
   humanURL: http://office.com
   baseURL: https://outlook.office365.com//ews/odata/Me
   tags: Services
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/microsoft-office-365/allservices-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/microsoft-office-365/services-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/microsoft-office-365/allservices-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/microsoft-office-365/services-get-postman.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
