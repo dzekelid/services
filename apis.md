@@ -4,7 +4,7 @@ description: This is a repository of services APIs, self-contained as a Github r
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/services.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://services.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -26,10 +26,10 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-machine-learning/apis.yaml
 - name: Azure Search
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/azure-search/apis.yaml
-- name: Microsoft Office 365
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/microsoft-office-365/apis.yaml
 - name: PagerDuty
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/pagerduty/apis.yaml
+- name: Microsoft Office 365
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/microsoft-office-365/apis.yaml
 - name: Product Hunt
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/product-hunt/apis.yaml
 - name: BBC
