@@ -5,71 +5,68 @@ description: 3scales API Management platform gives you the tools you need to tak
   control of your API. Trusted by more customers than any other vendor.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
 x-kinRank: "10"
-x-alexaRank: "345437"
+x-alexaRank: "333433"
 tags: Services
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
 apis:
-- name: 3Scale Account Management API Application List (all services)
-  x-api-slug: 3scale-account-management-api
+- name: 3Scale Account Management API - Application List (all services)
+  x-api-slug: adminapiapplications-xml-get
   description: Application list (all services).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
   humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net////admin/api/applications.xml
-  tags: Application,List,(all,Services)
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/3scale/adminapiapplications-xml-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/3scale/adminapiapplications-xml-get-openapi.md
-- name: 3Scale Account Management API Application Plan List (all services)
-  x-api-slug: 3scale-account-management-api
+- name: 3Scale Account Management API - Application Plan List (all services)
+  x-api-slug: adminapiapplication-plans-xml-get
   description: Application plan list (all services).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
   humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net////admin/api/application_plans.xml
-  tags: Application,Plan,List,(all,Services)
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/3scale/adminapiapplication-plans-xml-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/3scale/adminapiapplication-plans-xml-get-openapi.md
-- name: 3Scale Account Management API End User Plan List (all services)
-  x-api-slug: 3scale-account-management-api
+- name: 3Scale Account Management API - End User Plan List (all services)
+  x-api-slug: adminapiend-user-plans-xml-get
   description: End user plan list (all services).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
   humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net////admin/api/end_user_plans.xml
-  tags: End,User,Plan,List,(all,Services)
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/3scale/adminapiend-user-plans-xml-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/3scale/adminapiend-user-plans-xml-get-openapi.md
-- name: 3Scale Account Management API Service Plan List (all services)
-  x-api-slug: 3scale-account-management-api
+- name: 3Scale Account Management API - Service Plan List (all services)
+  x-api-slug: adminapiservice-plans-xml-get
   description: Service plan list (all services).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
   humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net////admin/api/service_plans.xml
-  tags: Service,Plan,List,(all,Services)
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/3scale/adminapiservice-plans-xml-get-openapi.md
-- name: 3Scale Account Management API
-  x-api-slug: 3scale-account-management-api
-  description: 3scales API Management platform gives you the tools you need to take
-    control of your API. Trusted by more customers than any other vendor.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
-  humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net//
-  tags: Services
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/services/master/_listings/3scale/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://3scale.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://3scale.stack.network
 - type: x-blog
   url: http://www.3scale.net/blog/
 - type: x-blog-rss
@@ -101,7 +98,11 @@ x-common:
 - type: x-website
   url: http://
 - type: x-website
+  url: http://http
+- type: x-website
   url: http://www.3scale.net
+- type: x-website
+  url: ://
 include: []
 maintainers:
 - FN: Kin Lane

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Microsoft Office 365
 x-complete: 1
@@ -15,17 +14,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /AllServices:
-    get:
-      summary: Get All Services
-      description: Get all services.
-      operationId: getAllservices
-      x-api-path-slug: allservices-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Allservices
   /Services:
     get:
       summary: Get Services
@@ -37,4 +25,14 @@ paths:
           description: OK
       tags:
       - Services
----
+  /AllServices:
+    get:
+      summary: Get All Services
+      description: Get all services.
+      operationId: getAllservices
+      x-api-path-slug: allservices-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Allservices

@@ -15,6 +15,17 @@ produces:
 consumes:
 - application/json
 paths:
+  /Services:
+    get:
+      summary: Get Services
+      description: Get services
+      operationId: getServices
+      x-api-path-slug: services-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Services
   /AllServices:
     get:
       summary: Get All Services

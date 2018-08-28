@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Kubernetes
 x-complete: 1
@@ -363,4 +362,3 @@ paths:
       tags:
       - Watch
       - Services
----

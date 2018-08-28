@@ -16,28 +16,6 @@ produces:
 consumes:
 - application/json
 paths:
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}/restore
-  : post:
-      summary: ApiManagementServices Restore
-      description: Restores a backup of an API Management service created using the
-        ApiManagementServices_Backup operation on the current service. This is a long
-        running operation and could take several minutes to complete.
-      operationId: ApiManagementServices_Restore
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamerestore-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: Parameters supplied to the Restore API Management service from
-          backup operation
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - API Management Services
   /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}:
     put:
       summary: ApiManagementServices CreateOrUpdate

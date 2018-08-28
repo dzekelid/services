@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure Search
 x-complete: 1
@@ -67,39 +66,3 @@ paths:
           description: OK
       tags:
       - Services
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices:
-    get:
-      summary: Services List By Resource Group
-      description: Gets a list of all Search services in the given resource group.
-      operationId: Services_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-searchsearchservices-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Services Resource Group
-  /subscriptions/{subscriptionId}/providers/Microsoft.Search/checkNameAvailability:
-    post:
-      summary: Services Check Name Availability
-      description: Checks whether or not the given Search service name is available
-        for use. Search service names must be globally unique since they are part
-        of the service URI (https://<name>.search.windows.net).
-      operationId: Services_CheckNameAvailability
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-searchchecknameavailability-post
-      parameters:
-      - in: body
-        name: checkNameAvailabilityInput
-        description: The resource name and type to check
-        schema:
-          $ref: '#/definitions/holder'
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Services Name Availability
----
